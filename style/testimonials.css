@@ -1,0 +1,35 @@
+.testimonialsHeader h2 {
+    font-size: 8em;
+}
+.testimonialsHeader p {
+    font-size: 2em;
+    padding: 50px 10px;
+}
+.testimonialsBox {
+    padding-top: 100px;
+    font-size: 2em;
+    line-height: 3em;
+}
+.testimonialsBoxII {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    border: solid 3px rgb(0,150,200);
+    box-shadow: 5px 5px 5px rgb(0,150,200);
+    text-align: center;
+}
+.linkCenter {
+    text-align: center;
+    font-size: 2em;
+}
+
+/*----- media -----*/
+/*----- media 768px -----*/
+@media only screen and (min-width: 768px) {
+    .testimonialsBoxII {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+/*----- media 768px end -----*/
+/*----- media end -----*/

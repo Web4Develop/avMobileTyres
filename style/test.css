@@ -1,0 +1,522 @@
+/*----- global -----*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: rgb(250,250,250);
+}
+li {
+    list-style-type: none;
+}
+/*----- global end -----*/
+
+/*----- navMain and Sidenav menu -----*/
+.current {
+    margin-left: 50vw;
+    font-size: 2em;
+    color: rgb(0,00,200);
+}
+.navMain .activePage {
+    color: rgb(0,150,200);
+}
+.navMain {
+    background-color: rgb(0,0,0);
+    opacity: 80%;
+    margin: 20px 0px;
+}
+.navMain a {
+    text-decoration: none;
+    color: rgb(250,250,250);
+}
+.navMain a:hover {
+    color: rgb(0,150,200);
+    transition-delay: 0.2s;
+}
+.navMain li {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0px;
+}
+.navTitle {
+    font-size: 2em;
+    padding: 0px 10px 10px 10px;
+    color: rgb(0,150,200);
+    text-decoration: underline;
+}
+.openbtn {
+    font-size: 2em;
+}
+.openbtn {
+    cursor: pointer;
+}
+.openbtn:hover {
+    box-shadow: 5px 5px 5px rgb(0,150,200);
+    transition-delay: 0.2s;
+}
+.sidenav .activePage {
+    color: rgb(0,150,200);
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/*
+.sidenav .copyright {
+    margin-top: 120px;
+}
+*/
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(200,200,200);
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: rgb(0,150,200);
+}
+.sidenav {
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: o;
+    left: 0;
+    background-color: rgb(0,0,100);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 1.5s;
+    transition-delay: 0s;
+    transition-duration: 2s;
+}
+.tel {
+    font-size: 2em;
+    float: right;
+    margin-right: 20px;
+    background-color: rgb(0,150,200);
+    color: rgb(250,250,250);
+}
+.tel:hover {
+    background-color: rgb(250,250,250);
+    color: rgb(0,150,200);
+    box-shadow: 5px 5px 5px rgb(0,150,200);
+    transition-delay: 0.2s;
+}
+/*----- navMain and Sidenav menu end -----*/
+
+/*----- header -----*/
+header {
+    text-align: center;
+}
+.openHours li {
+    text-align: center;
+    font-size: 5em;
+    background-color: rgb(0,150,200);
+    color: rgb(250,250,250);
+    margin: 30px 0px;
+}
+
+/*----- parallax -----*/
+.parallax {
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-image: url(../images/winter-tires-4664205_640.jpg);
+    /* url(/Test/images/winter-tires-4664205_640.jpg) */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxII {
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-image: url(../images/2020-10-23.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxIII {
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-image: url(../images/tyre-1714669_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxIV {
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-image: url(../images/car-repair-3661755.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*----- parallax end -----*.
+
+/*----- title -----*/
+.services li {
+    text-align: center;
+    font-size: 2em;
+}
+.titleBox {
+    background-color: rgb(0,150,200);
+    color: rgb(250,250,250);
+    padding-top: 100px;
+    position: relative;
+    margin: auto;
+}
+.telII {
+    color: rgb(0,150,200);
+}
+.telII:hover {
+    color: rgb(0,150,200);
+    box-shadow: 5px 5px 5px 5px rgb(0,150,200);
+    transition-delay: 0.2s;
+}
+.titleEmail {
+    font-size: 0.8em;
+    color: rgb(0,150,200)
+}
+.titleEmail:hover {
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(0,150,200);
+    transition-delay: 0.2s;
+}
+.titleEmail:hover {
+    border-bottom: solid rgb(0,150,200) 3px;
+}
+.titleHeader {
+    font-size: 10em;
+    position: relative;
+    bottom: 70px;
+}
+.titleText, .titleTextTelII {
+    line-height: 2em;
+    font-size: 3em;
+}
+.titleTextTelII {
+    background-color: rgb(250,250,250);
+    color: rgb(0,0,0);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/*----- logo -----*/
+.titleOne img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.titleII {
+    width: 100%;
+    height: 60vh;
+    opacity: 20%;
+}
+/*----- logo end -----*/
+/*----- title end -----*/
+/*----- header end -----*/
+
+/*----- main -----*/
+main img {
+    width: 100%;
+}
+.gallery {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    justify-content: center;
+    margin-top: 100px;
+}
+.galleryPicture {
+    box-shadow: 0px 5px 5px 5px rgb(0,150,200);
+    padding: 20px;
+    border-radius: 50%;
+}
+.galleryPicture img {
+    border: solid 5px rgb(250,250,250);
+    border-radius: 50%;
+}
+/*----- section hourText -----*/
+.clear {
+    clear: both;
+}
+.hourText {
+    padding: 20px 0px;
+    margin-top: 100px;
+}
+.hourText h3 {
+    box-shadow: 5px 5px 20px 5px rgb(0,150,200);
+    font-size: 3em;
+    text-align: center;
+}
+.hourText li {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: 2em;
+    line-height: 1.5em;
+    width: 80%;
+    text-align: center;
+    /*box-shadow: 15px 25px 25px 0px rgb(150,150,150);*/
+}
+.hourText p {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: 2em;
+    line-height: 1.5em;
+    width: 80%;
+    text-align: center;
+    /*box-shadow: 15px 25px 25px 0px rgb(150,150,150);*/
+}
+/*----- section hourText end-----*/
+
+/*----- testimonial and testimonialLink -----*/
+.checked {
+    color: rgb(250,200,100);
+}
+.star {
+    position: relative;
+    top: 20px;
+    left: 10%;
+    width: 80%;
+}
+.testimonialsContainer {
+    margin-top: 200px;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    padding: 20px 0px;
+    line-height: 2.5em;
+}
+.testimonialsLinkIndex, .testimonialsLink {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.testimonialsLinkIndex a, .testimonialsLink a {
+    color: rgb(0,150,200);
+    text-decoration: none;
+    padding: 20px;
+    display: inline;
+    /*margin-left: 10%;*/
+    font-size: 1.5em;
+}
+.testimonialsLinkIndex a:hover, .testimonialsLink a:hover {
+    border-bottom: solid rgb(0,150,200);
+    padding-top: 10px;
+    transition-delay: 0.2s;
+    box-shadow: 5px 5px 5px;
+}
+.testimonialsName {
+    color: rgb(0,150,200);
+}
+/*----- testimonial and testimonialLink end -----*/
+
+/*----- 24/7 -----*/
+
+article {
+    text-align: center;
+    font-size: 5em;
+    color: rgb(0,150,200);
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+/*----- 24/7 end -----*/
+/*----- main end -----*/
+
+/*----- footer -----*/
+footer {
+    background-color: rgb(0,0,0);
+    /*margin-top: 20px;*/
+    padding: 30px 0px 100px;
+    /*grid: 150px / auto auto auto;*/
+}
+/*----- footerLinks------*/
+.footerLinks {
+    margin: 30px;
+}
+.footerLinks li {
+    display: inline-block;
+}
+.footerLinks a {
+    color: rgb(250,250,250);
+    /*width: 50%;
+    padding-bottom: 30px;*/
+    padding: 0px 20px;
+    font-size: 1.3em;
+    line-height: 3em;
+}
+/*----- footerLinks end------*/
+
+.footerHours {
+    line-height: 3em;
+    color: rgb(0,150,200);
+    font-size: 1.3em;
+    text-align: center;
+}
+
+/* below not currently being used */
+.footerAddress {
+    margin-left: 10px;
+    font-size: 1.3em;
+    float: left;
+}
+/* / below not currently being used */
+
+.copyright {
+    clear: both;
+    color: rgb(250,250,250);
+    padding-top: 10%;
+    text-align: center;
+    line-height: 3.5em;
+    font-size: 1em;
+}
+
+
+/* W4D */
+.W4D {
+    color: rgba(255,255,255,1);
+}
+
+.W4DGreen {
+    color: #16e0bd;
+}
+
+.W4D:hover { 
+    font-size: 2em;
+    border: solid 5px #16e0bd;
+    border-radius: 30px;
+    padding: 10px;
+    background: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+    margin-left: 10px;
+ }
+
+.W4DBlack {
+    /* margin: 0 auto;
+    width: 100px;
+    background: rgba(255,255,255,1);
+    font-size: 1em; */
+}
+
+
+/* .W4DImage {
+    width: 10em;
+    display: none;
+}
+
+.W4DImage:hover {
+    display: block;
+} */
+/*----- footer end -----*/
+
+/*-----media-----*/
+/*----- 600px -----*/
+@media only screen and (min-width: 600px) {
+    .navMain {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .navMain li {
+        /*display: inline-block;*/
+        display: inline;
+        padding: 10px;
+    }
+}
+/*----- 600px end -----*/
+
+/*----- 768px -----*/
+@media only screen and (min-width: 768px) {
+    /*.navMain li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+        margin-left: 90px;
+    }*/
+    /*.navMain a {
+        text-align: center;
+        margin-left: 7vw;
+    }
+    .navMain li {
+        display: inline-block;
+    }*/
+    .gallery {
+        grid-template-columns: 40% 40%;
+        grid-template-rows: auto auto auto auto;
+        justify-content: space-evenly;
+    }
+    /*.hourText p {
+        width: 40%;
+        float: left;
+    }*/
+    /*.navMain a {
+        /*padding: 30px;
+        color: red;
+    }*/
+    .navMain li {
+        padding: 30px;
+    }
+    /*.testimonialsLink {
+        clear: both;
+        width: 100%;
+        margin: 20% 0%;
+    }*/
+    .testimonialsLinkIndex a {
+        box-sizing: border-box;
+        margin-left: 23%;
+    }
+    .footerHours {
+        font-size: 1.3em;
+    }
+    .footerHours li {
+        display: inline-block;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+    .footerLinks a {
+        margin: 0px 50px;
+        text-align: center;
+    }
+}
+/*----- 768px end -----*/
+
+/*----- 1200px -----*/
+@media only screen and (min-width: 1200px) {
+    .hourText p {
+        margin: 70px 0px;
+        font-size: 2em;
+        line-height: 1.5em;
+        float: left;
+        width: 20%;
+        margin-left: 50px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .navMain li {
+        padding: 50px;
+    }
+    .submit, .submitReset {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 1.0em;
+        padding:10px;
+        background-color: rgb(0,200,150);
+        color: rgb(250,250,250);
+    }
+    .submitReset {
+        background-color: rgb(200,0,0);
+        color: rgb(250,250,250);
+    }
+}
+/*----- media end -----*/

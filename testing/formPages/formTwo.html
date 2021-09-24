@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/b2eabad3ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Test/style/test.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="form.html"> Form One </a>
+        <a href="formTwo.html"> Form Two </a>
+        <a href="formThree.html"> Form Three </a>
+        <p class="copyright"> Copyright&copy; AV Mobile Tyres </p>
+    </nav>
+    <span class="openbtn" onclick="openNav()"> <i class="fas fa-bars"></i> Menu </span>
+    <nav>
+        <a class="current" href="formTwo.html"> Form Two </a>
+    </nav>
+    <!-- navigation bar end -->
+
+    <div class="formContainer">
+        <form action="mailto:realweb4develop@gmail.com" target="_blank" method="post" enctype="multipart/form-data"
+            name="AVMobileTyresContactUs">
+            <!-- firstName -->
+            <label for="firstName"> First Name: </label>
+            <input class="input" type="text" id="firstName" name="FirstName" required autofocus
+                placeholder="First Name">
+            <!-- firstName end -->
+            <!-- lastName -->
+            <label for="lastName"> Last Name </label>
+            <input class="input" type="text" id="lastName" name="lastName" required placeholder="Last Name">
+            <!-- lastName end -->
+            <!-- dropdown list -->
+            <div class="dropdownList">
+                <label for="cars models"> Choose your car from the list </label>
+                <select id="cars" class="carContainer">
+                    <option value="astonMartin"> Aston Martin </option>
+                    <option value="audi"> Audi </option>
+                    <option value="austin"> Austin </option>
+                    <option value="bentley"> Bentley </option>
+                    <option value="bmw"> BMW </option>
+                    <option value="cirtroen"> Citroen </option>
+                    <option value="daewoo"> Daewoo </option>
+                    <option value="daihatsu"> Daihatsu </option>
+                    <option value="dodge"> Dodge </option>
+                    <option value="ferrari"> Ferrari </option>
+                    <option value="fiat"> Fiat </option>
+                    <option value="ford"> Ford </option>
+                    <option value="honda"> Honda </option>
+                    <option value="hyundai"> Hyundai </option>
+                    <option value="isuzu"> Isuzu </option>
+                    <option value="jaguar"> Jaguar </option>
+                    <option value="jeep"> Jeep </option>
+                    <option value="kia"> Kia </option>
+                    <option value="landRover"> Land Rover </option>
+                    <option value="lexus"> Lexus </option>
+                    <option value="lotus"> Lotus </option>
+                    <option value="meserati"> Maserati </option>
+                    <option value="mazda"> Mazda </option>
+                    <option value="mcc-smart"> MCC-Smart </option>
+                    <option value="mercedes"> Mercedes </option>
+                    <option value="mg"> MG </option>
+                    <option value="miniBmw"> Mini BMW </option>
+                    <option value="mitsubishi"> Mitsubishi </option>
+                    <option value="nissan"> Nissan </option>
+                    <option value="peugeot"> Peugeot </option>
+                    <option value="porsche"> Porsche </option>
+                    <option value="proton"> Proton </option>
+                    <option value="renault"> Renault </option>
+                    <option value="rollsRoyce"> Rolls Royce </option>
+                    <option value="rover"> Rover </option>
+                    <option value="saab"> Saab </option>
+                    <option value="seat"> Seat </option>
+                    <option value="skoda"> Skoda </option>
+                    <option value="ssangYong"> SsangYong </option>
+                    <option value="subaru"> Subaru </option>
+                    <option value="suzuki"> Suzuki </option>
+                    <option value="toyota"> Toyota </option>
+                    <option value="tvr"> TVR </option>
+                    <option value="vauxhall"> Vauxhall </option>
+                    <option value="volkswagen"> Volkswagen </option>
+                    <option value="volvo"> Volvo </option>
+                </select>
+            </div>
+            <!-- dropdown list end -->
+            <textarea name="message" required placeholder="Enter your message here..."></textarea>
+            <input class="submit" type="submit" value="Send">
+            <input class="submit submitReset" type="reset" value="Reset">
+        </form>
+    </div>
+
+    <script src="/Test/script/test.js"></script>
+</body>
+
+</html>
